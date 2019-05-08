@@ -1,0 +1,185 @@
+[VER_Compatibility]
+VER = 2.00
+SUM =
+
+[PDA_Compatibility]
+ProductName = 1607_A01,1607_A02
+OuterName = 1607_A01,1607_A02
+
+[PCB_Compatibility]
+u8HardwareVersionMajor = T0,T1,T2,P0,P1,P2,P3,P4,P5
+u8HardwareVersionAux =
+u8HardwareRF_NV =
+u8ChipSetType = MSM8976SG
+
+[DEV_Compatibility]
+
+[ANTI_Goof]
+SecureBoot = true
+HardwareID = 0x00000337
+
+[EMMC_Compatibility]
+eMMC_Count = 1
+
+[DOWNLOAD_REPORT]
+DownLoadReport = true
+channelid = 360_1607_CN 
+
+[EMMC_INFO0]
+eMMC_OrderingInfomation = KMQ310013M-B419
+eMMC_ManufacturerID = 0x45
+eMMC_ProductName = 0x513331334d42
+eMMC_ProductVersion = 0x00
+VersionCheckStauts = ">="
+eMMC_Sector_Count = 0x1D1F000
+
+
+
+[Download_Protocol]
+Solution_Protocol = 4111
+Transfer_Protocol = 4111
+
+[FILE_INFO]
+fileNumber = 35
+
+fileName01 = sbl1.mbn
+fileCode01 = sbl1
+fileDown01 = 1111
+
+fileName02 = tz.mbn
+fileCode02 = tz
+fileDown02 = 1111
+
+fileName03 = rpm.mbn
+fileCode03 = rpm
+fileDown03 = 1111
+
+fileName04 = devcfg.mbn
+fileCode04 = devcfg
+fileDown04 = 1111
+
+fileName05 = cmnlib.mbn
+fileCode05 = cmnlib
+fileDown05 = 1111
+
+fileName06 = cmnlib64.mbn
+fileCode06 = cmnlib64
+fileDown06 = 1111
+
+fileName07 = keymaster.mbn
+fileCode07 = keymaster
+fileDown07 = 1111
+
+fileName08 = adspso.bin
+fileCode08 = dsp
+fileDown08 = 1111
+
+fileName09 = logo.bin
+fileCode09 = logo
+fileDown09 = 1111
+
+fileName10 = emmc_appsboot.mbn
+fileCode10 = aboot
+fileDown10 = 1111
+
+fileName11 = sbl1.mbn
+fileCode11 = sbl1bak
+fileDown11 = 1111
+
+fileName12 = tz.mbn
+fileCode12 = tzbak
+fileDown12 = 1111
+
+fileName13 = rpm.mbn
+fileCode13 = rpmbak
+fileDown13 = 1111
+
+fileName14 = devcfg.mbn
+fileCode14 = devcfgbak
+fileDown14 = 1111
+
+fileName15 = cmnlib.mbn
+fileCode15 = cmnlibbak
+fileDown15 = 1111
+
+fileName16 = cmnlib64.mbn
+fileCode16 = cmnlib64bak
+fileDown16 = 1111
+
+fileName17 = keymaster.mbn
+fileCode17 = keymasterbak
+fileDown17 = 1111
+
+fileName18 = emmc_appsboot.mbn
+fileCode18 = abootbak
+fileDown18 = 1111
+
+fileName19 = NON-HLOS.bin
+fileCode19 = modem
+fileDown19 = 1111
+
+fileName20 = param.bin
+fileCode20 = params
+fileDown20 = 1000
+
+fileName21 = cache.img
+fileCode21 = cache
+fileDown21 = 1111
+
+fileName22 = persist.img
+fileCode22 = persist
+fileDown22 = 1000
+
+fileName23 = MISC.img
+fileCode23 = misc
+fileDown23 = 1100
+
+fileName24 = panic.img
+fileCode24 = panic
+fileDown24 = 1000
+
+fileName25 = boot.img
+fileCode25 = boot
+fileDown25 = 1111
+
+fileName26 = sec.dat
+fileCode26 = sec
+fileDown26 = 1000
+
+fileName27 = recovery.img
+fileCode27 = recovery
+fileDown27 = 1111
+
+fileName28 = system.img
+fileCode28 = system
+fileDown28 = 1111
+
+fileName29 = userdata.img
+fileCode29 = userdata
+fileDown29 = 1111
+
+
+fileName30 = nv.tar.mbn
+fileCode30 = fsg
+fileDown30 = 1000
+
+fileName31 = dummy.bin
+fileCode31 = modemst1
+fileDown31 = 1000
+
+fileName32 = dummy.bin
+fileCode32 = modemst2
+fileDown32 = 1000
+
+fileName33 = metadata.img
+fileCode33 = metadata
+fileDown33 = 1000
+
+fileName34 = mdtp.img
+fileCode34 = mdtp
+fileDown34 = 1100
+
+fileName35 = ddr.bin
+fileCode35 = DDR
+fileDown35 = 1111
+
